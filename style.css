@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.first-row {
+    /* background-color: red; */
+    display: flex;
+    padding: 10px;
+}
+.first-row nav {
+    position: absolute;
+    right: 40px;
+}
+.first-row nav a {
+    padding: 0 10px;
+}
+a{
+    text-decoration: none;
+}
+.first-row a {
+    color: black;
+}
+.second-row {
+    display: flex;
+}
+.left{
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 30px;
+}
+.right{
+    width: 50%;
+}
+.left h1{
+    font-size: 55px;
+}
+.left p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.logo{
+    padding-left: 30px;
+}
+.image{
+    width: 60px;
+}
+.left-a{
+    background-color: rgb(5, 50, 110);
+    color: white;
+    padding: 11px 18px;
+    border-radius: 5px;
+}
+.right-a{
+    background-color: black;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 5px;
+}
+.greetings{
+    color: rgb(5, 50, 110);
+    font-size: 30px!important;
+}
+.greetings:hover{
+    color: skyblue;
+}
